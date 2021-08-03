@@ -105,12 +105,37 @@ main {
 }
 .video-demo-text-container {
   margin: 20px;
-  background-color: rgba(239, 165, 46, 0.873);
-  border: 2px solid rgb(239, 136, 46);
+  background-color: rgba(74, 74, 74, 0.517);
+  border: 2px solid rgb(74, 74, 74);
   padding: 5px;
 box-shadow: 5px 5px 15px 2px #00000066;
 }
 .video-demo-text {
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+}
+.about-page {
+  padding: 2rem;
+}
+.about-section {
+  background-color: rgba(74, 74, 74, 0.517);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(74, 74, 74);
+  margin: 20px;
+  padding: 5px;
+}
+.about-section-title {
+  font-family: 'Vampiro One', cursive;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 4px -2px 2px #0000008d;
+
+}
+.about-section-text{
   font-size: 1.3rem;
   color: rgb(255, 255, 255);
   font-family: 'Barlow', sans-serif;
