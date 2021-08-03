@@ -1,8 +1,10 @@
 function Footer (props) {
     return (
-        <div>
-            <h1>Footer</h1>
-        </div>
+        <footer>
+            <div className="copyright-container">
+                <p className="copyright">Copyright 2021 Caleb Confer</p>
+            </div>
+        </footer>
 
     )
 }
